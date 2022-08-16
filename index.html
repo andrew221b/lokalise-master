@@ -12,16 +12,23 @@
 
 <body>
   <header class="header">
-    <div class="container">
 
-      <div class="header-container">
+<div class="container">
+  <div class="header-flex">
 
-        <div class="header-logo">
-          <a class="header-logo__img" href=""><img src="assets/img/logo/logo.svg" alt=""></a>
-          <strong class="header-logo__text">lokalise</strong>
+    <div class="header-flex-nav">
+      <div class="header-logo">
+        <a class="header-logo__img" href=""><img src="assets/img/logo/logo.svg" alt=""></a>
+      </div>
+
+      <nav class="header-navbar">
+        <div class="header-navbar__btn">
+          <span class="header-navbar__btn-row"></span>
+          <span class="header-navbar__btn-row"></span>
+          <span class="header-navbar__btn-row"></span>
         </div>
 
-        <ul class="header-navbar">
+        <ul class="header-navbar__list">
           <li class="header-navbar__item">
             <a class="header-navbar__link" href="">Product</a>
           </li>
@@ -38,20 +45,25 @@
             <a class="header-navbar__link" href="">Resources</a>
           </li>
         </ul>
-
-        <div class="header-buttons">
-          <a class="login-btn" href="">Log in</a>
-          <a class="try-btn" href="">Try it free</a>
-        </div>
-      </div>
-
+      </nav>
     </div>
+
+    <div class="header-action">
+      <button class="btn btn--light btn--sm" type="button">Log in</button>
+      <button class="btn btn--accent btn--sm" type="button">Try it free</button>
+    </div>
+  </div>
+</div>
+
+    
+
   </header>
-  <main class="main">
+  
+  <main class="main container">
 
     <section class="hero">
 
-      <div class="container">
+      <div class="container container--hero">
 
         <h1 class="hero-title">Accelerate localization from code to delivery</h1>
 
@@ -61,8 +73,8 @@
         </div>
 
         <div class="hero-buttons">
-          <a class="try-btn" href="">Try it free</a>
-          <a class="book-btn" href="">Book a demo</a>
+          <button class="btn btn--accent btn--md" type="button">Try it free</button>
+          <button class="btn btn--light btn--md" type="button">Book a demo</button>
         </div>
 
 
@@ -76,144 +88,152 @@
 
     <section class="partners">
 
-      <div class="container">
-        <h2 class="partners-title">The preferred localization tool of 1500+ companies</h2>
 
-        <div class="partners-logo">
-          <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame.svg" alt=""
-              class="partners-logo__img"></a>
-          <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_1.svg" alt=""
-              class="partners-logo__img"></a>
-          <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_2.svg" alt=""
-              class="partners-logo__img"></a>
-          <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_3.svg" alt=""
-              class="partners-logo__img"></a>
-          <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_4.svg" alt=""
-              class="partners-logo__img"></a>
-          <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_5.svg" alt=""
-              class="partners-logo__img"></a>
-        </div>
+      <h2 class="partners-title">The preferred localization tool of 1500+ companies</h2>
+
+      <div class="partners-logo">
+        <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame.svg" alt=""
+            class="partners-logo__img"></a>
+        <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_1.svg" alt=""
+            class="partners-logo__img"></a>
+        <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_2.svg" alt=""
+            class="partners-logo__img"></a>
+        <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_3.svg" alt=""
+            class="partners-logo__img"></a>
+        <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_4.svg" alt=""
+            class="partners-logo__img"></a>
+        <a href="" class="partners-logo__link"><img src="assets/img/partner_logo/frame_5.svg" alt=""
+            class="partners-logo__img"></a>
       </div>
+
 
 
     </section>
 
     <section class="advantages">
 
-      <div class="container">
 
-        <div class="advantages-grid">
 
-          <div class="advantages-content">
-            <h2 class="advantages-content__title">Control the localization process</h2>
-            <div class="advantages-content__description">Collaborate with your team in a single workspace. Add and
-              assign tasks, track progress, and enjoy a seamless localization workflow where you know who is doing what
-              and when.</div>
-            <div class="advantages-content__action">
-              <a href="" class="advantages-content__link">Start now</a>
-            </div>
+      <div class="advantages-grid">
+
+        <div class="advantages-content">
+          <h2 class="advantages-content__title">Control the localization process</h2>
+          <div class="advantages-content__description">Collaborate with your team in a single workspace. Add and
+            assign tasks, track progress, and enjoy a seamless localization workflow where you know who is doing what
+            and when.</div>
+          <div class="advantages-content__action">
+            <a href="" class="advantages-content__link">Start now</a>
           </div>
+        </div>
 
-          <div class="advantages-content">
-            <h2 class="advantages-content__title">Shorten time to market</h2>
-            <div class="advantages-content__description">Localize your product in parallel with the development cycle.
-              Use the Adobe XD, Figma, and Sketch plugins to start working on translations as soon as the product design
-              is ready. No more idle waiting.</div>
-            <div class="advantages-content__action">
-              <a href="" class="advantages-content__link">Start now</a>
-            </div>
+        <div class="advantages-content">
+          <h2 class="advantages-content__title">Shorten time to market</h2>
+          <div class="advantages-content__description">Localize your product in parallel with the development cycle.
+            Use the Adobe XD, Figma, and Sketch plugins to start working on translations as soon as the product design
+            is ready. No more idle waiting.</div>
+          <div class="advantages-content__action">
+            <a href="" class="advantages-content__link">Start now</a>
           </div>
+        </div>
 
-          <div class="advantages-content">
-            <h2 class="advantages-content__title">Ensure quality</h2>
-            <div class="advantages-content__description">Use built-in tools — e.g. translation memory, machine
-              translation, and QA checks — to enhance the quality and cohesion of translations. Add product screenshots
-              for context and use the in-context editors for instant previews.</div>
-            <div class="advantages-content__action">
-              <a href="" class="advantages-content__link">Start now</a>
-            </div>
+        <div class="advantages-content">
+          <h2 class="advantages-content__title">Ensure quality</h2>
+          <div class="advantages-content__description">Use built-in tools — e.g. translation memory, machine
+            translation, and QA checks — to enhance the quality and cohesion of translations. Add product screenshots
+            for context and use the in-context editors for instant previews.</div>
+          <div class="advantages-content__action">
+            <a href="" class="advantages-content__link">Start now</a>
           </div>
+        </div>
 
-          <div class="advantages-content">
-            <h2 class="advantages-content__title">Less work for developers</h2>
-            <div class="advantages-content__description">Eliminate the hassle of localization and let developers get
-              back to their main tasks. Save hours with the powerful API, CLI, mobile SDKs, and integrations with
-              GitHub, Bitbucket, JIRA, and more.</div>
-            <div class="advantages-content__action">
-              <a href="" class="advantages-content__link">Start now</a>
-            </div>
+        <div class="advantages-content">
+          <h2 class="advantages-content__title">Less work for developers</h2>
+          <div class="advantages-content__description">Eliminate the hassle of localization and let developers get
+            back to their main tasks. Save hours with the powerful API, CLI, mobile SDKs, and integrations with
+            GitHub, Bitbucket, JIRA, and more.</div>
+          <div class="advantages-content__action">
+            <a href="" class="advantages-content__link">Start now</a>
           </div>
+        </div>
 
-          <div class="advantages-picture"><img src="assets/img/main_about_img/rect_1.svg" alt="" class="advantages-img"></div>
-          <div class="advantages-picture"><img src="assets/img/main_about_img/rect_2.svg" alt="" class="advantages-img"></div>
-          <div class="advantages-picture"><img src="assets/img/main_about_img/rect_3.svg" alt="" class="advantages-img"></div>
-          <div class="advantages-picture"><img src="assets/img/main_about_img/rect_4.svg" alt="" class="advantages-img"></div>
-
+        <div class="advantages-picture"><img src="assets/img/main_about_img/rect_1.svg" alt="" class="advantages-img">
+        </div>
+        <div class="advantages-picture"><img src="assets/img/main_about_img/rect_2.svg" alt="" class="advantages-img">
+        </div>
+        <div class="advantages-picture"><img src="assets/img/main_about_img/rect_3.svg" alt="" class="advantages-img">
+        </div>
+        <div class="advantages-picture"><img src="assets/img/main_about_img/rect_4.svg" alt="" class="advantages-img">
         </div>
 
       </div>
 
+
+
     </section>
-    
-    
+
+
     <section class="possibilities">
-      
-      <div class="container">
-      
-        <div class="possibilities-grid">
-       
-          <h2 class="possibilities-title">What can you localize with Lokalise?</h2>
-          
-          <div class="possibilities-item">
-            <img src="assets/img/possibilities_img/rectangle.svg" alt="" class="possibilities-item__img">
-              <h3 class="possibilities-item__title">Web apps</h3>
-              <div class="possibilities-item__description">Any kind of web apps — backend, frontend, single page, blogs — you name it.</div>
-            </img>
-          </div>
-         
-          <div class="possibilities-item">
-            <img src="assets/img/possibilities_img/rectangle_1.svg" alt="" class="possibilities-item__img">
-              <h3 class="possibilities-item__title">Mobile apps</h3>
-              <div class="possibilities-item__description">Upload any mobile platform language files. Embed Lokalise iOS SDK or Lokalise Android SDK if you prefer. </div>
-            </img>
-          </div>
 
-          <div class="possibilities-item">
-            <img src="assets/img/possibilities_img/rectangle_2.svg" alt="" class="possibilities-item__img">
-              <h3 class="possibilities-item__title">Games</h3>
-              <div class="possibilities-item__description">Our cloud software is trusted by many leading game developers around the world.</div>
-            </img>
-          </div>
 
-          <div class="possibilities-item">
-            <img src="assets/img/possibilities_img/rectangle_3.svg" alt="" class="possibilities-item__img">
-              <h3 class="possibilities-item__title">Documents</h3>
-              <div class="possibilities-item__description">Upload your DOCX and static HTML files.</div>
-            </img>
-          </div>
 
-          <div class="possibilities-item">
-            <img src="assets/img/possibilities_img/rectangle_4.svg" alt="" class="possibilities-item__img">
-              <h3 class="possibilities-item__title">Marketing e-mails</h3>
-              <div class="possibilities-item__description">Integrate with Salesforce Marketing Cloud (coming soon) or translate static e-mails.</div>
-            </img>
-          </div>
+      <div class="possibilities-grid">
 
-          <div class="possibilities-item">
-            <img src="assets/img/possibilities_img/rectangle_5.svg" alt="" class="possibilities-item__img">
-              <h3 class="possibilities-item__title">IoT</h3>
-              <div class="possibilities-item__description">We support most popular localization file formats.</div>
-            </img>
-          </div>
-       </div>
-       
-       
+        <h2 class="possibilities-title">What can you localize with Lokalise?</h2>
+
+        <div class="possibilities-item">
+          <img src="assets/img/possibilities_img/rectangle.svg" alt="" class="possibilities-item__img">
+          <h3 class="possibilities-item__title">Web apps</h3>
+          <div class="possibilities-item__description">Any kind of web apps — backend, frontend, single page, blogs —
+            you name it.</div>
+          </img>
+        </div>
+
+        <div class="possibilities-item">
+          <img src="assets/img/possibilities_img/rectangle_1.svg" alt="" class="possibilities-item__img">
+          <h3 class="possibilities-item__title">Mobile apps</h3>
+          <div class="possibilities-item__description">Upload any mobile platform language files. Embed Lokalise iOS
+            SDK or Lokalise Android SDK if you prefer. </div>
+          </img>
+        </div>
+
+        <div class="possibilities-item">
+          <img src="assets/img/possibilities_img/rectangle_2.svg" alt="" class="possibilities-item__img">
+          <h3 class="possibilities-item__title">Games</h3>
+          <div class="possibilities-item__description">Our cloud software is trusted by many leading game developers
+            around the world.</div>
+          </img>
+        </div>
+
+        <div class="possibilities-item">
+          <img src="assets/img/possibilities_img/rectangle_3.svg" alt="" class="possibilities-item__img">
+          <h3 class="possibilities-item__title">Documents</h3>
+          <div class="possibilities-item__description">Upload your DOCX and static HTML files.</div>
+          </img>
+        </div>
+
+        <div class="possibilities-item">
+          <img src="assets/img/possibilities_img/rectangle_4.svg" alt="" class="possibilities-item__img">
+          <h3 class="possibilities-item__title">Marketing e-mails</h3>
+          <div class="possibilities-item__description">Integrate with Salesforce Marketing Cloud (coming soon) or
+            translate static e-mails.</div>
+          </img>
+        </div>
+
+        <div class="possibilities-item">
+          <img src="assets/img/possibilities_img/rectangle_5.svg" alt="" class="possibilities-item__img">
+          <h3 class="possibilities-item__title">IoT</h3>
+          <div class="possibilities-item__description">We support most popular localization file formats.</div>
+          </img>
+        </div>
       </div>
-      
-      
-    
+
+
+
+
+
+
     </section>
-    
+
     <section></section>
     <section></section>
     <section></section>

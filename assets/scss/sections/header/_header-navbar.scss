@@ -1,0 +1,22 @@
+@use "../../mixins" as *;
+
+.header-navbar {
+}
+.header-navbar__btn {
+}
+.header-navbar__btn-row {
+}
+.header-navbar__list {
+    list-style-type: none;
+    @include flex-row;
+    gap: 45px;
+}
+.header-navbar__item {
+}
+.header-navbar__link {
+}
+
+.header-flex-nav {
+    @include flex-row;
+    gap: 50px;
+}

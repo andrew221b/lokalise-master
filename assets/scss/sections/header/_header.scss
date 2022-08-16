@@ -1,0 +1,12 @@
+@use "../../mixins" as *;
+
+.header {
+  min-height: 95px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.header-flex {
+  @include flex-row;
+  justify-content: space-between;
+  min-height: 95px;
+}

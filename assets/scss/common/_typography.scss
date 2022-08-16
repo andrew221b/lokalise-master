@@ -1,3 +1,6 @@
+@use "../presets" as *;
+@use "../mixins/" as *;
+
 *,
 *::after,
 *::before {
@@ -13,8 +16,11 @@ a {
 }
 
 html {
+  font-size: 16px;
+}
+
+body {
   font-family: "Graphik LCG", "Arial";
-  font-size: 15px;
   background-color: $base-color;
   line-height: 16px;
   color: $font-color;
