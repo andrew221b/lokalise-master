@@ -1,0 +1,94 @@
+@import "../css/normalize.css";
+@font-face {
+  font-family: "Graphik LCG";
+  font-weight: 600;
+  font-style: normal;
+
+  src: url("GraphikLCG-Semibold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Graphik LCG";
+  font-weight: normal;
+  font-style: normal;
+
+  src: url("GraphikLCG-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-style: normal;
+
+  src: url("Roboto-Regular.woff2") format("woff2");
+}
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+html {
+  color: #000000;
+  background-color: #ffffff;
+
+  font-family: "Graphik LCG", "Arial";
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  min-height: 95px;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.header-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  list-style-type: none;
+}

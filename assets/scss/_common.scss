@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $font-color;
+}
+
+html {
+  font-family: "Graphik LCG", "Arial";
+  font-size: 15px;
+  background-color: $base-color;
+  line-height: 16px;
+  color: $font-color;
+}

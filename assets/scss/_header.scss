@@ -1,0 +1,24 @@
+.header-container {
+  min-height: 95px;
+  border-bottom: 1px solid #cccccc;
+  @include flex;
+}
+
+.header-logo {
+  @include flex;
+}
+.header-logo__img {
+}
+.header-logo__text {
+}
+.header-navbar {
+  @include flex;
+  list-style-type: none;
+ 
+}
+.header-navbar__item {
+}
+.header-navbar__link {
+}
+.header-buttons {
+}
