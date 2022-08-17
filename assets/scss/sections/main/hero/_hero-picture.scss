@@ -1,0 +1,15 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.hero-picture {
+    @include lg-md {
+        order: -1;
+        @include flex;
+    }
+}
+
+.hero-picture>img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}

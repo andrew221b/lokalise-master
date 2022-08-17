@@ -1,0 +1,12 @@
+@use "../../../mixins" as *;
+
+.hero-action {
+    @include flex;
+    gap: 16px;
+    padding-top: 42px;
+}
+
+.btn--md {
+    min-width: 160px;
+    line-height: 3.74em;
+}

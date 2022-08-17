@@ -1,4 +1,5 @@
 @use "../../mixins" as *;
+@use "../../presets" as *;
 
 .header {
   min-height: 95px;
@@ -6,7 +7,14 @@
 }
 
 .header-flex {
-  @include flex-row;
+  @include flex;
   justify-content: space-between;
   min-height: 95px;
+}
+
+@media (max-width: $lg) {
+  .header-flex {
+      justify-content: center;
+      flex-direction: column;
+  }
 }

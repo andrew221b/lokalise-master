@@ -1,0 +1,36 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+
+.container-hero {
+    padding-top: 128px;
+    display: grid;
+   
+    align-items: start;
+    margin-bottom: 131px;
+
+@include lg-min {
+    grid-template-columns: 1fr 1.5fr;
+}
+
+    @include lg-md {
+    
+        padding-top: 50px;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        gap: 52px;
+    }
+}
+
+.hero-content {
+    @include flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    @include lg-md {
+        order: 0;
+        text-align: center;
+        align-items: center;
+    }
+}

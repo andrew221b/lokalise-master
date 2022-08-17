@@ -15,12 +15,18 @@ a {
   color: $font-color;
 }
 
+button {
+  cursor: pointer;
+}
+
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: "Graphik LCG", "Arial";
+  font-family: "Graphik LCG", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   background-color: $base-color;
   line-height: 16px;
   color: $font-color;

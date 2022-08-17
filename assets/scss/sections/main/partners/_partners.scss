@@ -1,0 +1,12 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.partners {
+    background-color: $secondary-color;
+    min-height: 455px; 
+    @include flex;
+}
+
+.container--partners {
+    @include flex-col;
+}
