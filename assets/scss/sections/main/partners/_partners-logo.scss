@@ -1,0 +1,17 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.partners-logo {
+   @include flex;
+   width: 100%;
+   
+
+  @include lg-min {
+    justify-content: space-between;
+  }
+  
+   @include lg-xs {
+justify-content: center;
+gap: 50px;
+  }
+}

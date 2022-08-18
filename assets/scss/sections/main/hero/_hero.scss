@@ -3,22 +3,22 @@
 
 
 .container-hero {
-    padding-top: 128px;
-    display: grid;
-   
-    align-items: start;
-    margin-bottom: 131px;
-
-@include lg-min {
-    grid-template-columns: 1fr 1.5fr;
-}
-
-    @include lg-md {
     
+    display: grid;
+    align-items: start;
+    
+
+    @include lg-min {
+        grid-template-columns: 1fr 1.5fr;
+        padding-top: 128px;
+        margin-bottom: 131px;
+    }
+
+    @include lg-xs {
         padding-top: 50px;
-        grid-template-rows: 1fr 1fr;
+        margin-bottom: 50px;
         justify-items: center;
-        gap: 52px;
+        gap: 72px;
     }
 }
 
@@ -28,7 +28,7 @@
     align-items: flex-start;
     gap: 8px;
 
-    @include lg-md {
+    @include lg-xs {
         order: 0;
         text-align: center;
         align-items: center;
