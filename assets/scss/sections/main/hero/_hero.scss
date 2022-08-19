@@ -3,10 +3,10 @@
 
 
 .container-hero {
-    
+
     display: grid;
     align-items: start;
-    
+
 
     @include lg-min {
         grid-template-columns: 1fr 1.5fr;
@@ -26,7 +26,7 @@
     @include flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+   
 
     @include lg-xs {
         order: 0;

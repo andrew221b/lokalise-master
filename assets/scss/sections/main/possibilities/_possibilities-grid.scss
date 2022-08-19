@@ -1,0 +1,21 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.possibilities-grid {
+  display: grid;
+  row-gap: 60px;
+  column-gap: 20px;
+
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 85px 0 129px;
+
+  @media (min-width: $md) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  @include md-sm {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

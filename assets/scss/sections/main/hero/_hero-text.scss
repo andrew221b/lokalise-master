@@ -1,6 +1,19 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
 .hero-text {
-font-size: 1.5em;
-line-height: 35px;
 max-width: 420px;
-padding-top: 43px;
+
+
+@include sm-min {
+  font-size: 1.5em;
+  line-height: 35px;
+  padding-top: 42px;
+}
+
+@include sm {
+  font-size: 1.2em;
+  line-height: 25px;
+  padding-top: 27px;
+}
 }

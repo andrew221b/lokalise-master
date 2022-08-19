@@ -16,9 +16,9 @@
         row-gap: 121px;
     }
 
-    @include md-xs {
+    @include md {
         @include flex-col;
-        gap: 80px;
+        gap: 70px;
     }
 }
 

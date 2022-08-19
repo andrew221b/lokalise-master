@@ -1,7 +1,19 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
 .hero-title {
 font-style: normal;
 font-weight: 600;
-font-size: 4em;
-line-height: 70px;
+
 margin: 0;
+
+@include sm-min {
+  font-size: 4em;
+  line-height: 70px;
+}
+
+@include sm {
+  font-size: 2.5em;
+  line-height: 50px;
+}
 }

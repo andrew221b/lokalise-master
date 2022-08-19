@@ -1,5 +1,6 @@
 @use "../../../mixins" as *;
 
+
 .hero-action {
     @include flex;
     gap: 16px;

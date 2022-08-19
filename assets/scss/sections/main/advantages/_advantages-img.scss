@@ -2,11 +2,16 @@
 @use "../../../presets" as *;
 
 .advantages-img {
-    object-fit: contain;
+    object-fit: cover;
     display: block;
-    width: 100%;
+
+
+@include md-min {
+  width: 100%;
+}
 
     @include md-xs {
-      object-fit: cover;
+      width: 75%;
   }
+
 }
