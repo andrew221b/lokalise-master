@@ -622,24 +622,16 @@ body {
   margin-bottom: 152px;
 }
 
-.team-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.team-grid {
+  display: grid;
   -webkit-box-align: start;
-  align-items: flex-start;
+  align-items: start;
   -ms-flex-align: start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 
   padding-top: 73px;
 
-  -webkit-column-gap: 50px;
-     -moz-column-gap: 50px;
-          column-gap: 50px;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .team-title {
@@ -651,9 +643,6 @@ body {
   line-height: 60px;
 }
 
-.team-item {
-  max-width: 390px;
-}
 .team-item__description {
   min-height: 50%;
   padding-top: 32px;
@@ -704,7 +693,7 @@ body {
      object-fit: cover;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 640px) {
   .hero-title {
     font-size: 4em;
     line-height: 70px;
@@ -733,7 +722,7 @@ body {
   }
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   .advantages-picture {
     height: 100%;
   }
@@ -745,7 +734,7 @@ body {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 960px) {
   .container-hero {
     margin-bottom: 131px;
     padding-top: 128px;
@@ -762,7 +751,7 @@ body {
   }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 960px) {
   .header-flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -777,7 +766,7 @@ body {
   }
 }
 
-@media (max-width: 1024.8px) and (min-width: 100px) {
+@media (max-width: 959.8px) and (min-width: 100px) {
   .container-hero {
     margin-bottom: 50px;
     padding-top: 50px;
@@ -819,13 +808,13 @@ body {
   }
 }
 
-@media (max-width: 1024.8px) and (min-width: 780px) {
+@media (max-width: 959.8px) and (min-width: 768px) {
   .advantages-grid {
     row-gap: 121px;
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   .header-flex-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -836,7 +825,7 @@ body {
   }
 }
 
-@media (max-width: 779.8px) {
+@media (max-width: 767.8px) {
   .advantages-grid {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -863,9 +852,19 @@ body {
 
     border-bottom: 1px solid #cccccc;
   }
+  .team-grid {
+    text-align: center;
+
+    grid-template-columns: 1fr;
+  }
+  .team-item__pic {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
 }
 
-@media (max-width: 779.8px) and (min-width: 100px) {
+@media (max-width: 767.8px) and (min-width: 100px) {
   .advantages-grid > div:nth-child(1) {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
@@ -891,7 +890,7 @@ body {
   }
 }
 
-@media (max-width: 779.8px) and (min-width: 576px) {
+@media (max-width: 767.8px) and (min-width: 640px) {
   .advantages-picture {
     height: 350px;
   }
@@ -900,7 +899,7 @@ body {
   }
 }
 
-@media (max-width: 575.8px) {
+@media (max-width: 639.8px) {
   .hero-title {
     font-size: 2.5em;
     line-height: 50px;

@@ -1,0 +1,15 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  padding-top: 73px;
+  gap: 50px;
+
+  @include md {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
