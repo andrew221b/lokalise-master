@@ -188,7 +188,7 @@ template {
   src: url("Roboto-Regular.woff2") format("woff2");
 }
 .container {
-  max-width: 1370px;
+  max-width: 1330px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -690,6 +690,13 @@ body {
 }
 
 @media (min-width: 640px) {
+  .possibilities-title {
+    font-size: 3.1em;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 768px) {
   .hero-content__title {
     font-size: 4em;
     line-height: 70px;
@@ -712,13 +719,6 @@ body {
     font-size: 20px;
     line-height: 30px;
   }
-  .possibilities-title {
-    font-size: 3.1em;
-    line-height: 60px;
-  }
-}
-
-@media (min-width: 768px) {
   .advantages-picture {
     height: 100%;
   }
@@ -822,6 +822,20 @@ body {
 }
 
 @media (max-width: 767.8px) {
+  .hero-content__title {
+    font-size: 2.5em;
+    line-height: 50px;
+  }
+  .hero-content__text {
+    padding-top: 27px;
+
+    font-size: 1.2em;
+    line-height: 25px;
+  }
+  .partners-title {
+    font-size: 2.2em;
+    line-height: 46px;
+  }
   .advantages-grid {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -847,6 +861,14 @@ body {
     text-align: center;
 
     border-bottom: 1px solid #cccccc;
+  }
+  .advantages-content__title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .advantages-content__description {
+    font-size: 15px;
+    line-height: 30px;
   }
   .team-grid {
     text-align: center;
@@ -896,28 +918,6 @@ body {
 }
 
 @media (max-width: 639.8px) {
-  .hero-content__title {
-    font-size: 2.5em;
-    line-height: 50px;
-  }
-  .hero-content__text {
-    padding-top: 27px;
-
-    font-size: 1.2em;
-    line-height: 25px;
-  }
-  .partners-title {
-    font-size: 2.2em;
-    line-height: 46px;
-  }
-  .advantages-content__title {
-    font-size: 35px;
-    line-height: 45px;
-  }
-  .advantages-content__description {
-    font-size: 15px;
-    line-height: 30px;
-  }
   .advantages-picture {
     height: 250px;
   }
