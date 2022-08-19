@@ -1,0 +1,43 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.team-item {
+  max-width: 390px;
+
+
+
+  &__description {
+    font-size: 1.25em;
+    line-height: 30px;
+    padding-top: 32px;
+    min-height: 50%;
+  }
+
+  &__title {
+    font-size: 1.8em;
+    line-height: 40px;
+    padding-top: 48px;
+  }
+
+  &__link {
+    font-size: 1.25em;
+    line-height: 30px;
+    text-decoration-line: underline;
+  }
+
+  &__action {
+    padding-top: 26px;
+  }
+}
+
+.team-item__pic {
+ @include flex;
+ height: 200px;
+ justify-content: flex-start;
+}
+
+.team-item__img {
+  display: block;
+  object-fit: cover;
+}
+

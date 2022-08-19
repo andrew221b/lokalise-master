@@ -1,0 +1,11 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.team-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 73px;
+  column-gap: 50px;
+}
