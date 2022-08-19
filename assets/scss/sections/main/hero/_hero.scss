@@ -9,7 +9,7 @@
 
 
     @include lg-min {
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: 40% 1fr;
         padding-top: 128px;
         margin-bottom: 131px;
     }
@@ -19,18 +19,5 @@
         margin-bottom: 50px;
         justify-items: center;
         gap: 72px;
-    }
-}
-
-.hero-content {
-    @include flex;
-    flex-direction: column;
-    align-items: flex-start;
-   
-
-    @include lg-xs {
-        order: 0;
-        text-align: center;
-        align-items: center;
     }
 }

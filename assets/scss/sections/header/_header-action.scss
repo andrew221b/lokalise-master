@@ -11,20 +11,16 @@
     font-weight: 600;
     background: none;
     border: 1px solid #00000080;
-
-    &--sm {
-        min-width: 120px;
-        line-height: 2.7em;
-    }
-
-    &--accent {
-        background-color: $btn-accent-color;
-        color: $base-color;
-        border-color: $btn-accent-color;
-    }
 }
 
+.btn--sm {
+  min-width: 120px;
+  height: 2.7em;
+}
 
-
-.btn--light {}
+.btn--accent {
+  background-color: $btn-accent-color;
+  color: $base-color;
+  border-color: $btn-accent-color;
+}
 
