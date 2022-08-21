@@ -1,0 +1,11 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.feedback {
+  background-color: $feedback-color;
+  padding: 53px 0 105px;
+
+  @include lg {
+    padding-bottom: 53px;
+  }
+}

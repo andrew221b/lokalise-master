@@ -2,7 +2,7 @@
 @use "../../../presets" as *;
 
 .hero-picture {
-    @include lg-xs {
+    @include lg {
         order: -1;
         @include flex;
     }

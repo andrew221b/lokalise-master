@@ -1,0 +1,20 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.feedback-photo {
+
+}
+
+.feedback-img {
+
+  @include md-min {
+    object-fit: cover;
+    width: 100%;
+
+  }
+
+  @include xs {
+    
+    width: 80%;
+  }
+}

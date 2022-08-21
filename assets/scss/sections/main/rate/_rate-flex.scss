@@ -1,0 +1,17 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.rate-flex {
+  display: flex;
+
+
+  @include lg-min {
+    gap: 70px;
+  }
+
+  @include lg {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+  }
+}

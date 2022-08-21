@@ -1,0 +1,15 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+
+.integrate {
+
+  @include lg-min {
+    padding: 162px 0 162px;
+  }
+
+  @include lg {
+    padding: 81px 0 81px;
+  }
+}
+

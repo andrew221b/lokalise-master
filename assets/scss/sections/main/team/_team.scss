@@ -1,3 +1,13 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
 .team {
-  margin-bottom: 152px;
+
+  @include md-min {
+    margin-bottom: 152px;
+  }
+
+  @include md {
+    margin-bottom: 70px;
+  }
 }

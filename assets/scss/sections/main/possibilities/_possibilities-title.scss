@@ -6,13 +6,13 @@ font-size: 3.1em;
 line-height: 60px;
 text-align: center;
 
-@include sm-min {
+@include md-min {
   font-size: 3.1em;
-line-height: 60px;
+  line-height: 60px;
 }
 
-@include sm {
-  font-size: 2.1em;
-  line-height: 45px;
+@include md {
+  font-size: 2.2em;
+  line-height: 46px;
 }
 }

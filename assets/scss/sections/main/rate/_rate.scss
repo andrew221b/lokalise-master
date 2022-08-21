@@ -1,0 +1,12 @@
+@use "../../../mixins" as *;
+@use "../../../presets" as *;
+
+.rate {
+  background-color: $rate-color;
+  min-height: 332px;
+  @include flex;
+}
+
+.container--rate {
+
+}

@@ -10,7 +10,7 @@
     justify-content: space-between;
   }
 
-   @include lg-xs {
+   @include lg {
 justify-content: space-around;
 gap: 50px;
   }
