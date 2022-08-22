@@ -1,18 +1,19 @@
 @use "../../mixins" as *;
 @use "../../presets" as *;
 
-
 .footer-card {
   max-width: 370px;
   display: flex;
   flex-direction: column;
 
-
+  @include xl-md {
+    margin-right: 40px;
+  }
 
   @include md {
-align-items: center;
-text-align: center;
-padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
   }
 
   &__title {
@@ -24,7 +25,7 @@ padding-bottom: 50px;
     padding-top: 29px;
   }
 
-  &__pic > img {
+  &__pic>img {
     width: 100%;
     object-fit: cover;
   }

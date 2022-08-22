@@ -552,7 +552,7 @@ body {
   background-color: #fcf6df;
 }
 
-.advantages-img {
+.advantages-picture > img {
   display: block;
 
   -o-object-fit: cover;
@@ -561,7 +561,6 @@ body {
 
 .possibilities {
   min-height: 990px;
-  padding-top: 119px;
 
   background-color: #fcf6df;
 }
@@ -896,7 +895,6 @@ body {
   display: flex;
 
   min-height: 590px;
-  padding: 90px 0 96px;
 
   border-bottom: 1px solid black;
 }
@@ -1038,7 +1036,7 @@ body {
   .advantages-picture {
     height: 100%;
   }
-  .advantages-img {
+  .advantages-picture > img {
     width: 100%;
   }
   .possibilities-grid {
@@ -1115,6 +1113,9 @@ body {
   }
 }
 @media (max-width: 1919.8px) and (min-width: 768px) {
+  .possibilities {
+    padding-top: 119px;
+  }
   .integrate-content__title {
     font-size: 4em;
   }
@@ -1132,6 +1133,11 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+
+    padding: 90px 0 96px;
+  }
+  .footer-card {
+    margin-right: 40px;
   }
   .footer-copyright {
     padding-right: 85px;
@@ -1207,6 +1213,8 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 
+    padding: 30px 0 30px;
+
     gap: 25px;
   }
   .rate-description {
@@ -1231,7 +1239,7 @@ body {
     padding-bottom: 20px;
   }
   .integrate {
-    padding: 81px 0 81px;
+    padding: 45px 0 45px;
   }
   .footer-menu {
     gap: 50px;
@@ -1322,8 +1330,11 @@ body {
     font-size: 15px;
     line-height: 30px;
   }
-  .advantages-img {
+  .advantages-picture > img {
     width: 75%;
+  }
+  .possibilities {
+    padding-top: 40px;
   }
   .possibilities-title {
     font-size: 2.2em;
@@ -1338,7 +1349,7 @@ body {
     grid-template-columns: 1fr;
   }
   .team-title {
-    padding-top: 70px;
+    padding-top: 45px;
 
     font-size: 2.2em;
   }
@@ -1368,6 +1379,8 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+
+    padding: 40px 0 40px;
   }
   .footer-card {
     -webkit-box-align: center;

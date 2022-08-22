@@ -2,18 +2,15 @@
 @use "../../../presets" as *;
 
 .team-item {
+  @include flex-col;
+  align-items: flex-start;
 
-@include flex-col;
-align-items: flex-start;
-
-@include md {
-  align-items: center;
- }
+  @include md {
+    align-items: center;
+  }
 
   &__description {
-
     line-height: 30px;
-
     min-height: 50%;
 
     @include lg-min {
@@ -28,7 +25,7 @@ align-items: flex-start;
 
     @include md {
       padding-top: 15px;
-    font-size: 1em;
+      font-size: 1em;
     }
   }
 
@@ -50,15 +47,10 @@ align-items: flex-start;
 }
 
 .team-item__pic {
-
- min-height: 200px;
-
-
+  min-height: 200px;
 }
 
 .team-item__img {
   display: block;
   object-fit: cover;
-
 }
-

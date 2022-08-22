@@ -2,15 +2,15 @@
 @use "../../presets" as *;
 
 .header-action {
-    @include flex;
-    gap: 16px;
-    padding: 25px 0 25px;
+  @include flex;
+  gap: 16px;
+  padding: 25px 0 25px;
 }
 
 .btn {
-    font-weight: 600;
-    background: none;
-    border: 1px solid #00000080;
+  font-weight: 600;
+  background: none;
+  border: 1px solid #00000080;
 }
 
 .btn--sm {
@@ -23,4 +23,3 @@
   color: $base-color;
   border-color: $btn-accent-color;
 }
-

@@ -2,28 +2,24 @@
 @use "../../presets" as *;
 
 .footer-menu {
- display: grid;
+  display: grid;
+  gap: 21px;
 
- gap: 21px;
+  @include xl-lg {
+    grid-template-columns: repeat(4, minmax(100px, 196px));
+  }
 
- @include xl-lg {
-  grid-template-columns: repeat(4, minmax(100px, 196px));
-}
+  @include lg {
+    grid-template-columns: repeat(2, minmax(100px, 196px));
+    gap: 50px;
+  }
 
-@include lg {
-  grid-template-columns: repeat(2, minmax(100px, 196px));
-  gap: 50px;
-}
-
-@include md {
-  text-align: center;
-}
-
+  @include md {
+    text-align: center;
+  }
 }
 
 .footer-block {
-
-
   &__title {
     font-size: 20px;
     line-height: 25px;
@@ -31,7 +27,7 @@
     border: none;
   }
 
-  &__list{
+  &__list {
     display: flex;
     flex-direction: column;
     gap: 13px;

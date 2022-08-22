@@ -4,7 +4,6 @@
 .rate-flex {
   display: flex;
 
-
   @include lg-min {
     gap: 70px;
   }
@@ -13,5 +12,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 25px;
+    padding: 30px 0 30px;
   }
 }

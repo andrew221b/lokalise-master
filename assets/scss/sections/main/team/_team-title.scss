@@ -2,18 +2,16 @@
 @use "../../../presets" as *;
 
 .team-title {
+  line-height: 60px;
+  text-align: center;
 
-line-height: 60px;
-text-align: center;
+  @include md-min {
+    padding-top: 152px;
+    font-size: 3.1em;
+  }
 
-
-@include md-min {
-  padding-top: 152px;
-  font-size: 3.1em;
-}
-
-@include md {
-  padding-top: 70px;
-  font-size: 2.2em;
-}
+  @include md {
+    padding-top: 45px;
+    font-size: 2.2em;
+  }
 }

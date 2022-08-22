@@ -2,28 +2,17 @@
 @use "../../../presets" as *;
 
 .possibilities-item {
-max-width: 330px;
+  max-width: 330px;
   @include flex-col;
   gap: 25px;
 
   &__title {
     font-size: 1.56em;
     line-height: 35px;
-
-
   }
 
   &__description {
-
     font-size: 1.1em;
     line-height: 25px;
   }
-}
-
-.possibilities-item__pic {
-
-}
-
-.possibilities-item__img {
-
 }

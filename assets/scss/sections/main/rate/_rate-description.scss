@@ -4,9 +4,7 @@
 .rate-description {
   display: flex;
   align-items: center;
-
   gap: 70px;
-
 
   @include lg-min {
     justify-content: flex-start;
@@ -15,26 +13,23 @@
   }
 
   @include lg {
-
     justify-content: center;
     border-bottom: 1px solid black;
     padding: 20px 0 20px;
-}
-
-@include sm {
-flex-direction: column;
-gap: 35px;
-}
   }
+
+  @include sm {
+    flex-direction: column;
+    gap: 35px;
+  }
+}
 
 
 .rate-review {
-
   font-size: 35px;
   line-height: 50px;
   flex-basis: 60%;
   padding-right: 20px;
-
 
   @include lg {
     text-align: center;

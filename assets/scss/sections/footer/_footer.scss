@@ -9,15 +9,15 @@
   display: flex;
   min-height: 590px;
   border-bottom: 1px solid black;
-  padding: 90px 0 96px;
-
 
   @include xl-md {
     justify-content: space-between;
+    padding: 90px 0 96px;
   }
 
   @include md {
     flex-wrap: wrap;
     justify-content: center;
+    padding: 40px 0 40px;
   }
 }

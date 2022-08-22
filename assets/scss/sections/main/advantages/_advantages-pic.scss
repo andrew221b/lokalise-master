@@ -2,21 +2,34 @@
 @use "../../../mixins" as *;
 
 .advantages-picture {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    background-color: $about-color;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: $about-color;
 
-@include md-min {
-height: 100%;
+  @include md-min {
+    height: 100%;
+  }
+
+  @include md-sm {
+    height: 350px;
+  }
+
+  @include sm {
+    height: 250px;
+  }
 }
 
-    @include md-sm {
-      height: 350px;
-    }
+.advantages-picture>img {
+  object-fit: cover;
+  display: block;
 
-    @include sm {
-height: 250px;
-    }
+  @include md-min {
+    width: 100%;
+  }
+
+  @include md {
+    width: 75%;
+  }
 }

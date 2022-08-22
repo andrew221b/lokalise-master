@@ -5,13 +5,12 @@
   display: grid;
   row-gap: 60px;
   column-gap: 20px;
-
   justify-items: center;
   align-items: start;
   text-align: center;
   padding: 85px 0 129px;
 
-  @media (min-width: $md) {
+  @include md-min {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 

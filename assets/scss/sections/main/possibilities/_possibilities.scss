@@ -1,7 +1,15 @@
 @use "../../../presets" as *;
+@use "../../../mixins" as *;
 
 .possibilities {
   min-height: 990px;
-  padding-top:119px;
   background-color: $about-color;
+
+  @include xl-md {
+    padding-top: 119px;
+  }
+
+  @include md {
+    padding-top: 40px;
+  }
 }

@@ -2,14 +2,13 @@
 @use "../../../presets" as *;
 
 .rate-partners {
-display: flex;
-gap: 70px;
-align-items: flex-start;
+  display: flex;
+  gap: 70px;
+  align-items: flex-start;
 
-
-@include lg {
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 20px;
-}
+  @include lg {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
 }

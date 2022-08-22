@@ -3,8 +3,6 @@
 
 .feedback-grid {
   display: grid;
-
-
   gap: 20px;
 
   @include md-min {
@@ -19,12 +17,8 @@
 
 .feedback-content {
 
-
-
   &__description {
-
     line-height: 40px;
-
 
     @include lg-min {
       font-size: 1.8em;

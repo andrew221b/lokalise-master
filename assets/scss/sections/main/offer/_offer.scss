@@ -2,9 +2,7 @@
 @use "../../../presets" as *;
 
 .offer {
-
   background-color: $secondary-color;
-
 
   @include xl-md {
     padding: 119px 0 20px;
@@ -24,27 +22,26 @@
 }
 
 .offer__title {
-line-height: 75px;
-max-width: 784px;
+  line-height: 75px;
+  max-width: 784px;
 
-@include xl-md {
-  font-size: 4em;
+  @include xl-md {
+    font-size: 4em;
+  }
+
+  @include md-sm {
+    font-size: 3em;
+  }
+
+  @include sm {
+    font-size: 2.5em;
+  }
 }
 
-@include md-sm {
-  font-size: 3em;
-}
-
-@include sm {
-  font-size: 2.5em;
-}
-}
 .offer__note {
-font-size: 1.25em;
-line-height: 30px;
-margin-bottom: 24px;
-}
-.offer__action {
+  font-size: 1.25em;
+  line-height: 30px;
+  margin-bottom: 24px;
 }
 
 .btn--dark {

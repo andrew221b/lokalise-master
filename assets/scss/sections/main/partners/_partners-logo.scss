@@ -2,16 +2,15 @@
 @use "../../../presets" as *;
 
 .partners-logo {
-   @include flex;
-   width: 100%;
-
+  @include flex;
+  width: 100%;
 
   @include lg-min {
     justify-content: space-between;
   }
 
-   @include lg {
-justify-content: space-around;
-gap: 50px;
+  @include lg {
+    justify-content: space-around;
+    gap: 50px;
   }
 }

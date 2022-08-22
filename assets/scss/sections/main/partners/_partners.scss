@@ -2,14 +2,14 @@
 @use "../../../presets" as *;
 
 .partners {
-    background-color: $secondary-color;
-    min-height: 455px;
-    @include flex;
-    padding: 50px 0 50px;
+  background-color: $secondary-color;
+  min-height: 455px;
+  @include flex;
+  padding: 50px 0 50px;
 }
 
 .container--partners {
-    @include flex-col;
-    gap: 75px;
-    width: 100%;
+  @include flex-col;
+  gap: 75px;
+  width: 100%;
 }

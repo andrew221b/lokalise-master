@@ -2,18 +2,18 @@
 @use "../../../presets" as *;
 
 .rate-item {
- @include flex-col;
- align-items: flex-start;
- gap: 20px;
- max-width: 200px;
+  @include flex-col;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 200px;
 
- &__logo {
-  padding-top: 14px;
- }
+  &__logo {
+    padding-top: 14px;
+  }
 
- &__note {
-  font-size: 15px;
-  line-height: 25px;
-  letter-spacing: 0.75px;
- }
+  &__note {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+  }
 }

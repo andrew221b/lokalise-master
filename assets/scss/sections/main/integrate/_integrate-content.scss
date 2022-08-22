@@ -1,7 +1,6 @@
 @use "../../../mixins" as *;
 @use "../../../presets" as *;
 
-
 .integrate-content {
   @include flex-col;
   text-align: center;
@@ -24,7 +23,6 @@
   }
 
   &__description {
-
     line-height: 30px;
     max-width: 540px;
     padding-top: 3px;

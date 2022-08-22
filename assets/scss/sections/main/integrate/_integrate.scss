@@ -1,7 +1,6 @@
 @use "../../../mixins" as *;
 @use "../../../presets" as *;
 
-
 .integrate {
 
   @include lg-min {
@@ -9,7 +8,7 @@
   }
 
   @include lg {
-    padding: 81px 0 81px;
+    padding: 45px 0 45px;
   }
 }
 
