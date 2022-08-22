@@ -1,0 +1,45 @@
+@use "../../mixins" as *;
+@use "../../presets" as *;
+
+.footer-menu {
+ display: grid;
+
+ gap: 21px;
+
+ @include xl-lg {
+  grid-template-columns: repeat(4, minmax(100px, 196px));
+}
+
+@include lg {
+  grid-template-columns: repeat(2, minmax(100px, 196px));
+  gap: 50px;
+}
+
+@include md {
+  text-align: center;
+}
+
+}
+
+.footer-block {
+
+
+  &__title {
+    font-size: 20px;
+    line-height: 25px;
+    background: none;
+    border: none;
+  }
+
+  &__list{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-top: 19px;
+  }
+
+  &__link {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}

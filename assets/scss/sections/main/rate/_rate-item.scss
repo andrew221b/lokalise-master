@@ -6,15 +6,14 @@
  align-items: flex-start;
  gap: 20px;
  max-width: 200px;
-}
-.rate-item__logo {
-  padding-top: 14px;
-}
-.rate-item__stars {
 
-}
-.rate-item__note {
-font-size: 15px;
-line-height: 25px;
-letter-spacing: 0.75px;
+ &__logo {
+  padding-top: 14px;
+ }
+
+ &__note {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+ }
 }

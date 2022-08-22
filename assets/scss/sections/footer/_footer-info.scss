@@ -1,0 +1,35 @@
+@use "../../mixins" as *;
+@use "../../presets" as *;
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 53px 0 44px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-logo {
+display: flex;
+gap: 14px;
+
+&__note {
+  font-size: 12px;
+  line-height: 15px;
+  max-width: 300px;
+}
+}
+
+.footer-copyright {
+
+
+  @include xl-md{
+    padding-right: 85px;
+  }
+
+  &__year,
+  &__rights {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

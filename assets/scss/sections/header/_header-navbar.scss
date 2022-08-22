@@ -9,7 +9,6 @@
 .header-navbar__btn-row {}
 
 .header-navbar__list {
-    list-style-type: none;
     @include flex;
     gap: 45px;
 }

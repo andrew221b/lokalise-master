@@ -6,21 +6,21 @@
   @include flex-col;
   text-align: center;
 
-  &__title{
-line-height: 75px;
+  &__title {
+    line-height: 75px;
     max-width: 791px;
 
-@include xl-md {
-  font-size: 4em;
-}
+    @include xl-md {
+      font-size: 4em;
+    }
 
-@include md-sm {
-  font-size: 3em;
-}
+    @include md-sm {
+      font-size: 3em;
+    }
 
-@include sm {
-  font-size: 2.5em;
-}
+    @include sm {
+      font-size: 2.5em;
+    }
   }
 
   &__description {
@@ -43,7 +43,7 @@ line-height: 75px;
     }
   }
 
-  &__pic > img {
+  &__pic>img {
     width: 100%;
     object-fit: cover;
   }
