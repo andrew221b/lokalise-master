@@ -25,18 +25,37 @@
 .advantages-grid>div:nth-child(1) {
   grid-row: 1;
 
+  @include md-min {
+    margin-right: auto;
+  }
+
   @include md {
     order: -1;
   }
 }
 
+.advantages-grid>div:nth-child(2) {
+  @include md-min {
+    margin-left: auto;
+  }
+}
+
 .advantages-grid>div:nth-child(3) {
+
+  @include md-min {
+    margin-right: auto;
+  }
+
   @include md {
     order: 1;
   }
 }
 
 .advantages-grid>div:nth-child(4) {
+  @include md-min {
+    margin-left: auto;
+  }
+
   @include md {
     order: 2;
   }

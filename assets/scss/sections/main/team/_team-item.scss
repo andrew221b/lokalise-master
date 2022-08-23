@@ -32,7 +32,8 @@
   &__title {
     font-size: 1.8em;
     line-height: 40px;
-    padding-top: 48px;
+    padding-top: 50px;
+    order: 0;
   }
 
   &__link {
@@ -48,6 +49,7 @@
 
 .team-item__pic {
   min-height: 200px;
+  order: -1;
 }
 
 .team-item__img {

@@ -9,7 +9,7 @@
   @include lg-min {
     justify-content: flex-start;
     border-right: 1px solid black;
-    flex-basis: 63.3%;
+    flex-basis: 64.3%;
   }
 
   @include lg {
@@ -26,7 +26,7 @@
 
 
 .rate-review {
-  font-size: 35px;
+  font-size: 2.2em;
   line-height: 50px;
   flex-basis: 60%;
   padding-right: 20px;

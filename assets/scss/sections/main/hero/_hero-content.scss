@@ -29,16 +29,16 @@
   }
 
   &__text {
-    max-width: 420px;
+    max-width: 470px;
 
     @include md-min {
       font-size: 1.5em;
       line-height: 35px;
-      padding-top: 42px;
+      padding-top: 51px;
     }
 
     @include md {
-      font-size: 1.2em;
+      font-size: 1.25em;
       line-height: 25px;
       padding-top: 27px;
     }
@@ -46,8 +46,8 @@
 
   &__action {
     @include flex;
-    gap: 16px;
-    padding-top: 42px;
+    gap: 11px;
+    padding-top: 51px;
   }
 
   &__note {

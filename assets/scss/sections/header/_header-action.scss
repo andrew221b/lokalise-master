@@ -3,7 +3,7 @@
 
 .header-action {
   @include flex;
-  gap: 16px;
+  gap: 11px;
   padding: 25px 0 25px;
 }
 
@@ -11,11 +11,12 @@
   font-weight: 600;
   background: none;
   border: 1px solid #00000080;
+  padding: 0 15px 0 15px;
 }
 
 .btn--sm {
   min-width: 120px;
-  height: 2.7em;
+  height: 2.8em;
 }
 
 .btn--accent {

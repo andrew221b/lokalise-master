@@ -1,5 +1,4 @@
 @use "../presets" as *;
-@use "../mixins/" as *;
 
 *,
 *::after,
@@ -19,21 +18,24 @@ a {
   color: $primary-color;
 }
 
+.link-underline {
+  text-decoration: underline;
+}
+
 button {
   cursor: pointer;
 }
 
 html {
   font-size: 16px;
-  letter-spacing: 0.5px;
+
 }
 
 body {
-  font-family: "Graphik LCG", "Arial", sans-serif;
+  font-family: "Graphik LCG", sans-serif;
   font-style: normal;
   font-weight: 400;
   background-color: $base-color;
   line-height: 16px;
   color: $primary-color;
-
 }

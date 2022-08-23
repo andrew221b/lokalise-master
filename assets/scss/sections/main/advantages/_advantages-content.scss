@@ -2,7 +2,7 @@
 @use "../../../presets" as *;
 
 .advantages-content {
-  max-width: 490px;
+  max-width: 518px;
   @include flex-col;
   align-items: flex-start;
   gap: 30px;
@@ -16,12 +16,12 @@
   &__title {
 
     @include md-min {
-      font-size: 50px;
+      font-size: 3.1em;
       line-height: 60px;
     }
 
     @include md {
-      font-size: 35px;
+      font-size: 2.2em;
       line-height: 45px;
     }
   }
@@ -29,19 +29,19 @@
   &__description {
 
     @include md-min {
-      font-size: 20px;
+      font-size: 1.25em;
       line-height: 30px;
     }
 
     @include md {
-      font-size: 15px;
+      font-size: 0.93em;
       line-height: 30px;
     }
   }
 
   &__link {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 30px;
   }
 }

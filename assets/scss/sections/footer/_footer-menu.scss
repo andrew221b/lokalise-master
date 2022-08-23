@@ -5,12 +5,12 @@
   display: grid;
   gap: 21px;
 
-  @include xl-lg {
-    grid-template-columns: repeat(4, minmax(100px, 196px));
+  @include lg-min {
+    grid-template-columns: repeat(4, minmax(100px, 200px));
   }
 
   @include lg {
-    grid-template-columns: repeat(2, minmax(100px, 196px));
+    grid-template-columns: repeat(2, minmax(100px, 200px));
     gap: 50px;
   }
 
@@ -20,8 +20,10 @@
 }
 
 .footer-block {
+  padding-top: 4px;
+
   &__title {
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 25px;
     background: none;
     border: none;
@@ -30,12 +32,12 @@
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 14px;
     padding-top: 19px;
   }
 
   &__link {
-    font-size: 15px;
+    font-size: 0.93em;
     line-height: 15px;
   }
 }

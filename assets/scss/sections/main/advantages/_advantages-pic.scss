@@ -22,7 +22,7 @@
 }
 
 .advantages-picture>img {
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 
   @include md-min {

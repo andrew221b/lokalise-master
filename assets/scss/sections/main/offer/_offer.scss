@@ -4,8 +4,8 @@
 .offer {
   background-color: $secondary-color;
 
-  @include xl-md {
-    padding: 119px 0 20px;
+  @include md-min {
+    padding: 119px 0 119px;
     min-height: 603px;
   }
 
@@ -25,12 +25,12 @@
   line-height: 75px;
   max-width: 784px;
 
-  @include xl-md {
+  @include md-min {
     font-size: 4em;
   }
 
   @include md-sm {
-    font-size: 3em;
+    font-size: 3.1em;
   }
 
   @include sm {

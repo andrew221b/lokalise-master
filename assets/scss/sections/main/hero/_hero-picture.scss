@@ -2,7 +2,13 @@
 @use "../../../presets" as *;
 
 .hero-picture {
+
+  @include lg-min {
+    padding-top: 25px;
+  }
+
   @include lg {
+
     order: -1;
     @include flex;
   }

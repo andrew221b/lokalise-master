@@ -12,9 +12,10 @@
 .footer-logo {
   display: flex;
   gap: 14px;
+  flex-wrap: wrap;
 
   &__note {
-    font-size: 12px;
+    font-size: 0.75em;
     line-height: 15px;
     max-width: 300px;
   }
@@ -22,13 +23,13 @@
 
 .footer-copyright {
 
-  @include xl-md {
+  @include md-min {
     padding-right: 85px;
   }
 
   &__year,
   &__rights {
-    font-size: 12px;
+    font-size: 0.75em;
     line-height: 15px;
   }
 }

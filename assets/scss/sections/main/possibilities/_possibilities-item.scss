@@ -4,15 +4,20 @@
 .possibilities-item {
   max-width: 330px;
   @include flex-col;
-  gap: 25px;
+  gap: 17px;
+  text-align: center;
 
   &__title {
-    font-size: 1.56em;
+    font-size: 1.5em;
     line-height: 35px;
   }
 
   &__description {
     font-size: 1.1em;
     line-height: 25px;
+  }
+
+  &__pic {
+    order: -1;
   }
 }

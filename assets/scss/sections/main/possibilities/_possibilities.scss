@@ -5,7 +5,7 @@
   min-height: 990px;
   background-color: $about-color;
 
-  @include xl-md {
+  @include md-min {
     padding-top: 119px;
   }
 

@@ -10,7 +10,7 @@
   min-height: 590px;
   border-bottom: 1px solid black;
 
-  @include xl-md {
+  @include md-min {
     justify-content: space-between;
     padding: 90px 0 96px;
   }
