@@ -670,8 +670,6 @@ body {
   -ms-flex-order: 0;
   order: 0;
 
-  padding-top: 50px;
-
   font-size: 1.8em;
   line-height: 40px;
 }
@@ -764,8 +762,6 @@ body {
 .rate-review {
   -ms-flex-preferred-size: 60%;
   flex-basis: 60%;
-
-  padding-right: 20px;
 
   font-size: 2.2em;
   line-height: 50px;
@@ -1088,6 +1084,9 @@ body {
 
     font-size: 1.1em;
   }
+  .team-item__title {
+    padding-top: 50px;
+  }
   .feedback-grid {
     grid-template-columns: 69% 1fr;
     justify-items: end;
@@ -1170,6 +1169,9 @@ body {
     justify-content: flex-start;
 
     border-right: 1px solid black;
+  }
+  .rate-review {
+    padding-right: 20px;
   }
   .integrate {
     padding: 162px 0 162px;
@@ -1267,6 +1269,9 @@ body {
     justify-content: center;
 
     padding-bottom: 20px;
+  }
+  .rate-item {
+    min-width: 150px;
   }
   .integrate {
     padding: 45px 0 45px;
@@ -1376,6 +1381,7 @@ body {
   .team-grid {
     text-align: center;
 
+    gap: 75px;
     grid-template-columns: 1fr;
   }
   .team-title {
@@ -1393,6 +1399,9 @@ body {
     padding-top: 15px;
 
     font-size: 1em;
+  }
+  .team-item__title {
+    padding-top: 20px;
   }
   .feedback-grid {
     text-align: center;

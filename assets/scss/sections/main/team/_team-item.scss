@@ -32,8 +32,15 @@
   &__title {
     font-size: 1.8em;
     line-height: 40px;
-    padding-top: 50px;
     order: 0;
+
+    @include md-min {
+      padding-top: 50px;
+    }
+
+    @include md {
+      padding-top: 20px;
+    }
   }
 
   &__link {

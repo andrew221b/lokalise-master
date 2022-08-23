@@ -7,6 +7,10 @@
   gap: 15px;
   max-width: 200px;
 
+  @include lg {
+    min-width: 150px;
+  }
+
   &__logo {
     padding-top: 19px;
   }

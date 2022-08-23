@@ -11,5 +11,6 @@
   @include md {
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 75px;
   }
 }
