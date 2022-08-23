@@ -640,8 +640,6 @@ body {
 
 .team-title {
   text-align: center;
-
-  line-height: 60px;
 }
 
 .team-item {
@@ -835,8 +833,6 @@ body {
 }
 .integrate-content__title {
   max-width: 791px;
-
-  line-height: 75px;
 }
 .integrate-content__description {
   max-width: 540px;
@@ -1085,6 +1081,7 @@ body {
     padding-top: 152px;
 
     font-size: 3.1em;
+    line-height: 60px;
   }
   .team-item__description {
     padding-top: 25px;
@@ -1106,6 +1103,7 @@ body {
   }
   .integrate-content__title {
     font-size: 4em;
+    line-height: 75px;
   }
   .integrate-content__description {
     font-size: 1.5em;
@@ -1384,6 +1382,7 @@ body {
     padding-top: 45px;
 
     font-size: 2.2em;
+    line-height: 50px;
   }
   .team-item {
     -webkit-box-align: center;
@@ -1436,6 +1435,7 @@ body {
   }
   .integrate-content__title {
     font-size: 3.1em;
+    line-height: 65px;
   }
   .integrate-content__description {
     font-size: 1.25em;
@@ -1458,6 +1458,7 @@ body {
   }
   .integrate-content__title {
     font-size: 2.5em;
+    line-height: 60px;
   }
   .integrate-content__description {
     font-size: 0.93em;
