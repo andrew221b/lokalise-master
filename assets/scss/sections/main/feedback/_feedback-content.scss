@@ -1,20 +1,6 @@
 @use "../../../mixins" as *;
 @use "../../../presets" as *;
 
-.feedback-grid {
-  display: grid;
-  gap: 20px;
-
-  @include md-min {
-    grid-template-columns: 69% 1fr;
-    justify-items: end;
-  }
-
-  @include md {
-    text-align: center;
-  }
-}
-
 .feedback-content {
 
   &__description {
@@ -42,5 +28,16 @@
 
   &__logo {
     padding-top: 6px;
+  }
+
+  &__img-p {
+    @include md-min {
+      object-fit: cover;
+      width: 100%;
+    }
+
+    @include xs {
+      width: 80%;
+    }
   }
 }

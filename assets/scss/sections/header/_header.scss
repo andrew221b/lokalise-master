@@ -4,17 +4,29 @@
 .header {
   min-height: 95px;
   border-bottom: 1px solid #cccccc;
-}
 
-.header-flex {
-  @include flex;
-  justify-content: space-between;
-  min-height: 95px;
-}
+  &__flex {
+    @include flex;
+    justify-content: space-between;
+    min-height: 95px;
 
-@include lg {
-  .header-flex {
-    justify-content: center;
-    flex-direction: column;
+    @include lg {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  &__flex-nav {
+    @include flex;
+    gap: 50px;
+
+    @media (max-width: $lg) {
+      padding-top: 25px;
+    }
+
+    @media (max-width: $md) {
+      flex-direction: column;
+      gap: 25px;
+    }
   }
 }

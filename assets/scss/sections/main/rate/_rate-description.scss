@@ -22,11 +22,9 @@
     flex-direction: column;
     gap: 35px;
   }
-}
 
-
-.rate-review {
-  font-size: 2.2em;
+  &__review {
+    font-size: 2.2em;
   line-height: 50px;
   flex-basis: 60%;
 
@@ -36,5 +34,6 @@
 
   @include lg {
     text-align: center;
+  }
   }
 }

@@ -7,24 +7,14 @@
   &__list {
     @include flex;
     gap: 45px;
+
+    @include sm {
+      gap: 25px;
+    }
   }
 
   &__link {
     font-size: 0.93em;
     line-height: 1.25em;
-  }
-}
-
-.header-flex-nav {
-  @include flex;
-  gap: 50px;
-
-  @media (max-width: $lg) {
-    padding-top: 25px;
-  }
-
-  @media (max-width: $md) {
-    flex-direction: column;
-    gap: 25px;
   }
 }

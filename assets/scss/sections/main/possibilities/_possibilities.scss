@@ -12,4 +12,39 @@
   @include md {
     padding-top: 40px;
   }
+
+  &__title{
+    font-size: 3.1em;
+    line-height: 60px;
+    text-align: center;
+    order: 0;
+
+    @include md-min {
+      font-size: 3.1em;
+      line-height: 60px;
+    }
+
+    @include md {
+      font-size: 2.2em;
+      line-height: 46px;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    row-gap: 86px;
+    column-gap: 27px;
+    justify-items: center;
+    align-items: start;
+    text-align: center;
+    padding: 80px 0;
+
+    @include md-min {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include md-sm {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
 }

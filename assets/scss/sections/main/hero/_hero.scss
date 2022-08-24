@@ -1,20 +1,22 @@
 @use "../../../mixins" as *;
 @use "../../../presets" as *;
 
-.container-hero {
-  display: grid;
-  align-items: start;
+.hero {
+  &__grid{
+    display: grid;
+    align-items: start;
 
-  @include lg-min {
-    grid-template-columns: 42% 1fr;
-    padding-top: 128px;
-    margin-bottom: 131px;
-  }
+    @include lg-min {
+      grid-template-columns: 42% 1fr;
+      padding-top: 128px;
+      margin-bottom: 131px;
+    }
 
-  @include lg {
-    padding-top: 50px;
-    margin-bottom: 50px;
-    justify-items: center;
-    gap: 72px;
+    @include lg {
+      padding-top: 50px;
+      margin-bottom: 50px;
+      justify-items: center;
+      gap: 72px;
+    }
   }
 }

@@ -8,8 +8,6 @@
   }
 
   @include lg {
-
-    order: -1;
     @include flex;
   }
 }

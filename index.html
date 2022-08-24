@@ -12,8 +12,8 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="header-flex">
-        <div class="header-flex-nav">
+      <div class="header__flex">
+        <div class="header__flex-nav">
           <div class="header-logo">
             <a class="header-logo__img" href=""><img src="assets/img/logo/logo.svg" alt=""></a>
           </div>
@@ -46,22 +46,24 @@
   </header>
 
   <main class="main">
-    <section class="hero container">
-      <div class="container-hero">
-        <div class="hero-content">
-          <h1 class="hero-content__title">Accelerate localization from code to delivery</h1>
-          <div class="hero-content__text">
-            A localization and translation management platform for agile teams.
-            Embrace automation, workflow transparency, and fast project delivery.
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero-content">
+            <h1 class="hero-content__title">Accelerate localization from code to delivery</h1>
+            <div class="hero-content__text">
+              A localization and translation management platform for agile teams.
+              Embrace automation, workflow transparency, and fast project delivery.
+            </div>
+            <div class="hero-content__action">
+              <button class="btn btn--accent btn--md" type="button">Try it free</button>
+              <button class="btn btn--light btn--md" type="button">Book a demo</button>
+            </div>
+            <div class="hero-content__note">Try all features for 14 days · No credit card required</div>
           </div>
-          <div class="hero-content__action">
-            <button class="btn btn--accent btn--md" type="button">Try it free</button>
-            <button class="btn btn--light btn--md" type="button">Book a demo</button>
+          <div class="hero-picture">
+            <img src="assets/img/hero/hero.svg" alt="">
           </div>
-          <div class="hero-content__note">Try all features for 14 days · No credit card required</div>
-        </div>
-        <div class="hero-picture">
-          <img src="assets/img/hero/hero.svg" alt="">
         </div>
       </div>
     </section>
@@ -88,7 +90,7 @@
 
     <section class="advantages">
       <div class="container">
-        <div class="advantages-grid">
+        <div class="advantages__grid">
           <div class="advantages-content">
             <h3 class="advantages-content__title">Control the localization process</h3>
             <div class="advantages-content__description">Collaborate with your team in a single workspace. Add and
@@ -154,8 +156,8 @@
 
     <section class="possibilities">
       <div class="container">
-        <h2 class="possibilities-title">What can you localize with Lokalise?</h2>
-        <div class="possibilities-grid">
+        <h2 class="possibilities__title">What can you localize with Lokalise?</h2>
+        <div class="possibilities__grid">
           <div class="possibilities-item">
             <h3 class="possibilities-item__title">Web apps</h3>
             <div class="possibilities-item__pic">
@@ -209,8 +211,8 @@
 
     <section class="team">
       <div class="container">
-        <h2 class="team-title">Boost your localization team’s productivity tenfold</h2>
-        <div class="team-grid">
+        <h2 class="team__title">Boost your localization team’s productivity tenfold</h2>
+        <div class="team__grid">
           <div class="team-item">
             <h3 class="team-item__title">Managers</h3>
             <div class="team-item__pic">
@@ -253,8 +255,11 @@
     </section>
 
     <section class="feedback">
+      <h2 class="feedback__title-hidden">
+        Partner's feedback
+      </h2>
       <div class="container">
-        <div class="feedback-grid">
+        <div class="feedback__grid">
           <div class="feedback-content">
             <div class="feedback-content__description">“Lokalise has turned a task we were dreading into an absolute
               pleasure. Great platform, intuitive UX, powerful API. The automatic text recognition for screenshots has
@@ -264,8 +269,8 @@
               <img class="feedback-content__img" src="assets/img/partner_logo/frame_3.svg" alt="">
             </div>
           </div>
-          <div class="feedback-photo">
-            <img class="feedback-img" src="assets/img/photos/photo.svg" alt="">
+          <div class="feedback-content__photo">
+            <img class="feedback-content__img-p" src="assets/img/photos/photo.svg" alt="">
           </div>
         </div>
       </div>
@@ -273,12 +278,12 @@
 
     <section class="rate">
       <div class="container container--rate">
-        <div class="rate-flex">
+        <div class="rate__flex">
           <div class="rate-description">
-            <div class="rate-description-pic">
-              <img class="rate-desdcription-img" src="assets/img/rates/cake.svg" alt="">
+            <div class="rate-description__pic">
+              <img class="rate-desdcription__img" src="assets/img/rates/cake.svg" alt="">
             </div>
-            <h2 class="rate-review">
+            <h2 class="rate-description__review">
               The most-loved translation management software
             </h2>
           </div>
@@ -314,7 +319,7 @@
 
     <section class="offer">
       <div class="container">
-        <div class="offer-flex">
+        <div class="offer__flex">
           <h2 class="offer__title">Localization made easy. Why wait?</h2>
           <div class="offer__note">Try for free or let us show you how it works.</div>
           <div class="offer__action">
@@ -327,7 +332,7 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-flex">
+      <div class="footer__flex">
         <div class="footer-card">
           <h3 class="footer-card__title">Case Studies</h3>
           <div class="footer-card__pic"><img src="assets/img/partner_photo/bicycles.svg" alt=""></div>

@@ -13,35 +13,38 @@
     padding: 30px 0 20px;
     min-height: 420px;
   }
-}
 
-.offer-flex {
-  @include flex-col;
-  text-align: center;
-  gap: 30px;
-}
-
-.offer__title {
-  line-height: 75px;
-  max-width: 784px;
-
-  @include md-min {
-    font-size: 4em;
+  &__flex {
+    @include flex-col;
+    text-align: center;
+    gap: 30px;
   }
 
-  @include md-sm {
-    font-size: 3.1em;
+  &__title {
+
+    max-width: 784px;
+
+    @include md-min {
+      font-size: 4em;
+      line-height: 75px;
+    }
+
+    @include md-sm {
+      font-size: 3.1em;
+      line-height: 65px;
+    }
+
+    @include sm {
+      font-size: 2.5em;
+      line-height: 55px;
+    }
   }
 
-  @include sm {
-    font-size: 2.5em;
+  &__note {
+    font-size: 1.25em;
+    line-height: 30px;
+    margin-bottom: 24px;
   }
-}
-
-.offer__note {
-  font-size: 1.25em;
-  line-height: 30px;
-  margin-bottom: 24px;
 }
 
 .btn--dark {

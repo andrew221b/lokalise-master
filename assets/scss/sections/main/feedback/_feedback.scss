@@ -8,4 +8,31 @@
   @include lg {
     padding-bottom: 53px;
   }
+
+  &__title-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 20px;
+
+    @include md-min {
+      grid-template-columns: 69% 1fr;
+      justify-items: end;
+    }
+
+    @include md {
+      text-align: center;
+    }
+  }
 }

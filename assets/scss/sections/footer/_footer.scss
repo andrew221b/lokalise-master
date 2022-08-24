@@ -3,21 +3,21 @@
 
 .footer {
   background-color: $neutral-color;
-}
 
-.footer-flex {
-  display: flex;
-  min-height: 590px;
-  border-bottom: 1px solid black;
+  &__flex {
+    display: flex;
+    min-height: 590px;
+    border-bottom: 1px solid black;
 
-  @include md-min {
-    justify-content: space-between;
-    padding: 90px 0 96px;
-  }
+    @include md-min {
+      justify-content: space-between;
+      padding: 90px 0 96px;
+    }
 
-  @include md {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 40px 0 40px;
+    @include md {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 0 40px;
+    }
   }
 }
